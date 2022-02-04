@@ -16,6 +16,6 @@ function pandaCost(singaraQuantity, somuchaQuantity, jilapiQuantity) {
     return totalPrice;
 }
 /* these three variable's are defined as piece; */
-const checkout = pandaCost(4, 3, 6);
+let checkout = pandaCost(4, 3, 6);
 /* console output */
 console.log(checkout);
